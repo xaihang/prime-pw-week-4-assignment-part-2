@@ -15,8 +15,13 @@ body {
 }
 
 /* Add a background-color and a text color of your choice (do in html: Add an `<h3>` that explains your mode of transportation.) */
-.info, .car {
+.info {
     background-color: black;
+    color:  white; 
     font-size: 25px;
 }
 
+.car {
+    background-color: white ;
+    color: black;
+}
