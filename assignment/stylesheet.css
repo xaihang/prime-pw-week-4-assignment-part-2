@@ -1,9 +1,16 @@
 
 /* Add a background-color and a text color of your choice. */
-
+body {
+    background-color: #fba92c;
+    color: white;
+    text-align: center;
+}
 /* Add a background-color and a text color of your choice (do in html: Add an `<h3>` that explains your mode of transportation.) */
 
 /* add a background-color to that header's <h1> and <p> */
 header {
     background-color: lightgrey;
+    color: black;
+    font-size: x-small;
+    text-align: left;
 }
