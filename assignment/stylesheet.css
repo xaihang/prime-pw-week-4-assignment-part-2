@@ -1,9 +1,9 @@
-/* Place the existing `<h1>` and `<p>` inside of a `header` element and add a background-color to that header. */
 
 /* Add a background-color and a text color of your choice. */
 
 /* Add a background-color and a text color of your choice (do in html: Add an `<h3>` that explains your mode of transportation.) */
 
-h1 {
-    font-size: 44px;
+/* add a background-color to that header's <h1> and <p> */
+header {
+    background-color: lightgrey;
 }
