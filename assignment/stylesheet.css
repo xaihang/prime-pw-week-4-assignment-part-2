@@ -16,6 +16,16 @@ body {
     text-align: center;
 }
 
+/* ------------------------ container & border -----------------------*/
+.container {
+  
+    background-color: #565656;
+    border: 3px solid black;
+    width: 500px;
+    margin: 10px auto;
+
+}
+
 /* ------------------------ info & car section -----------------------*/
 /* Add a background-color and a text color of your choice (do in html: Add an `<h3>` that explains your mode of transportation.) */
 .info {
@@ -24,12 +34,19 @@ body {
     font-size: 25px;
 }
 
+img {
+    width: 500px;
+}
+
 .car {
     background-color: white ;
     color: black;
+  
 }
 
 /* ------------------------ footer -----------------------*/
 footer {
     padding-top: 100px;
+    text-align: left;
 }
+
