@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 /* ------------------------ header -----------------------*/
 /* add a background-color to that header's <h1> and <p> */
 header {
@@ -6,14 +7,18 @@ header {
     color: black;
     font-size: x-small;
     text-align: left;
+    padding-left: 10px;
 }
 
 /* ------------------------ body -----------------------*/
 /* Add a background-color and a text color of your choice. */
 body {
+    height: 100%;
+    width: 100%;
     background-color: #fba92c;
     color: white;
     text-align: center;
+    font-family: poppins;
 }
 
 /* ------------------------ container & border -----------------------*/
@@ -48,8 +53,9 @@ img {
 
 /* ------------------------ footer -----------------------*/
 footer {
-    padding-top: 100px;
+    padding-top: 200px;
+    padding-left: 10px;
     text-align: left;
-    margin: auto;
+
 }
 
