@@ -1,8 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css?family=Rubik+Vinyl');
 /* ------------------------ header -----------------------*/
-/* add a background-color to that header's <h1> and <p> */
+/* add a background-color to the header's <h1> and <p> */
 header {
     background-color: lightgrey;
     color: black;
@@ -22,22 +21,11 @@ body {
     font-family: poppins;
 }
 
-/* ------------------------ container & border -----------------------*/
-.container {
-  
-    background-color: #565656;
-    border: 3px solid black;
-    border-radius: 15px;
-    width: 500px;
-    margin: 10px auto;
-
-}
 
 /* ------------------------ info & car section -----------------------*/
 /* Add a background-color and a text color of your choice <h2> */
 .info {
     color:  black; 
-    font-family: Rubik Vinyl;
     font-size: 25px;
     background: rgb(131,58,180);
     background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
@@ -59,9 +47,6 @@ img {
 footer {
     padding-top: 200px;
     padding-right: 20px;
-    text-align: right;
+    text-align: center;
 }
 
-.button {
-    border-radius: 15px;
-}
