@@ -4,10 +4,16 @@
 /* add a background-color to the header's <h1> and <p> */
 header {
     background-color: lightgrey;
-    color: black;
+    color: darkgray;
     font-size: x-small;
     text-align: left;
     padding-left: 10px;
+}
+
+/* ------------------------ navigation  -----------------------*/
+.nav {
+    justify-content: end;
+    font-size: medium;
 }
 
 /* ------------------------ body -----------------------*/
@@ -33,8 +39,8 @@ body {
 }
 
 
-/* Add a background-color and a text color of your choice <h3> */
-.car {  
+/* Add a background-color and a text color of your choice for <h3> */
+h3 {  
     color: white;
     text-align: center;
     background: rgb(34,193,195);
@@ -42,13 +48,17 @@ body {
   
 }
 
-
 img {
     width: 50%;
     margin: auto;
 }
 
-/* ------------------------ carousel indicators  -----------------------*/
+/* ------------------------ carousel stuff  -----------------------*/
+.carousel-indicators {
+    background-color: #444;
+    background-color: rgba(70, 70, 70, 0.25);
+}
+
 .carousel-control-prev, .carousel-control-next {
     background-color: #999;
     background-color: rgba(70, 70, 70, 0.25);
