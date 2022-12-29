@@ -1,5 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+/* ------------------------ universal -----------------------*/
+* {
+    font-family: 'Courier New', monospace;
+}
+
+
 /* ------------------------ header -----------------------*/
 /* add a background-color to the header's <h1> and <p> */
 header {
@@ -10,10 +15,16 @@ header {
     padding-left: 10px;
 }
 
+p {
+    color: grey;
+}
+
 /* ------------------------ navigation  -----------------------*/
 .nav {
     justify-content: end;
     font-size: medium;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 
 /* ------------------------ body -----------------------*/
@@ -24,7 +35,6 @@ body {
     background-color: #fba92c;
     color: white;
     text-align: center;
-    font-family: poppins;
 }
 
 
