@@ -13,6 +13,7 @@ header {
     font-size: x-small;
     text-align: left;
     padding-left: 10px;
+    padding-top: 10px;
 }
 
 p {
@@ -27,17 +28,6 @@ p {
     padding-right: 30px;
     padding-bottom: 10px;
 }
-
-/* ------------------------ body -----------------------*/
-/* Add a background-color and a text color of your choice. */
-body {
-    height: 100%;
-    width: 100%;
-    background-color: #fba92c;
-    color: white;
-    text-align: center;
-}
-
 
 /* ------------------------ info & car section -----------------------*/
 /* Add a background-color and a text color of your choice <h2> */
