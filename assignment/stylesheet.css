@@ -20,6 +20,11 @@ p {
     color: grey;
 }
 
+span {
+    font-weight: 600;
+    color: black;
+}
+
 /* ------------------------ navigation  -----------------------*/
 .nav {
     justify-content: end;
