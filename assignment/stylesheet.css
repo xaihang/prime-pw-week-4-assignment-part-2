@@ -23,6 +23,7 @@ p {
 .nav {
     justify-content: end;
     font-size: medium;
+    font-weight: 400;
     padding-right: 30px;
     padding-bottom: 10px;
 }
@@ -85,7 +86,11 @@ footer {
     text-align: center;
 }
 
-
+.row {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    color: black;
+}
 
 
 
